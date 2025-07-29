@@ -22,8 +22,10 @@ To compile the software in this section, use a line like
 
     g++ -O2 -Wall -Wextra -march=native schottky_slice_hard.cpp -std=c++20 -pthread -o schottky_slice_hard
 
-Note that `-Ofast` introduces too many numerical errors. Everything here will produce a CSV file, to
-make nice plots run `python plot_slice_images.py`. You need [eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page).
+
+Note that `-Ofast` introduces too many numerical errors. Everything here unless otherwise mentioned will output diagnostic and progress information to stderr
+and the actual data in CSV format to stdout, so redirect stdout to an appropriate file. To make nice plots run `python plot_slice_images.py` (see names of CSV
+files embedded in there). You need [eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page).
 
 **Example 3.3**: [schottky_slice_easy.cpp](schottky_slice_easy.cpp)
 
