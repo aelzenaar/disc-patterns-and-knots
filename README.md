@@ -29,7 +29,7 @@ files embedded in there). You need [eigen](https://eigen.tuxfamily.org/index.php
 
 **Example 3.3**: [schottky_slice_easy.cpp](schottky_slice_easy.cpp)
 
-**Example 3.7**: [schottky_slice_hard.cpp](schottky_slice_hard.cpp) - also an alternative partial implementation of the improved algorithm in Remark 3.5, [schottky_slice_hard_rand.cpp](schottky_slice_hard_rand.cpp) which will produce a lot of CSV's in a subdirectory that need to be concatenated by hand into `schottky_slice_hard_rand.csv`.
+**Example 3.7**: [schottky_slice_hard.cpp](schottky_slice_hard.cpp) - also an alternative partial implementation of the improved algorithm in Remark 3.5, [schottky_slice_hard_rand.cpp](schottky_slice_hard_rand.cpp) which will produce a lot of CSV's in a subdirectory that need to be concatenated by hand into `schottky_slice_hard_rand.csv`. As of 31/07/2025 the values for $`z_1`$ in here are corrected to match the ones in the display in Example 3.7. The figure in the paper will be corrected in v3 of the arXiv preprint. See also [schottky_limit.py](schottky_limit.py) which will produce limit sets of groups in this slice.
 
 **Example 3.8**: (in `sage` not C++) [wielenberg_slice.sage](wielenberg_slice.sage) - alternatively modify modify lines 102-104 of the C++ source for Example 3.9 as appropriate.
 

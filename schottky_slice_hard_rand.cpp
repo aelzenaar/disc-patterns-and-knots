@@ -118,8 +118,8 @@ void vertical_strip(const std::vector<RR>& base_point_lengths,
       const CC t = x+1il*y;
 
       auto pixel_lengths = lengths_from_word_tree(word_tree_from_matrices(representation(t*(0.76069L + 0.857874il)+(1.L-t)*(2.L- 1.il),
-                                                                                         t*(-0.76069L - 0.857874il)+(1.L-t)*(- 1.il),
-                                                                                         t*(-3.05898L - 1.9751il)+(1.L-t)*(-2.L-2.il)),
+                                                                                         t*(-0.7610L - 0.857874il)+(1.L-t)*(- 1.il),
+                                                                                         t*(2.3146L - 2.6103il)+(1.L-t)*(-2.L-2.il)),
                                                                           word_list));
 
       RR shortest = std::numeric_limits<RR>::infinity();
